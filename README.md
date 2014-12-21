@@ -7,7 +7,7 @@ Perfect for prototyping.
 
 * **webpack** to bundle javascript files (CommonJS / AMD / ES6)
 * **sass** for stylesheets
-* **browser-sync ** to serve and livereload files
+* **browser-sync** to serve and livereload files
 
 ## Requirements
 
