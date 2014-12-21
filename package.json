@@ -4,6 +4,8 @@
   "description": "griable",
   "main": "bundle.js",
   "scripts": {
+    "prebuild": "npm run clean",
+    "clean": "rm -r dist/*",
     "build:js": "webpack",
     "build:css": "sass src/styles/main.scss:dist/bundle.css",
     "build": "npm run build:js && npm run build:css",
