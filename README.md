@@ -1,6 +1,6 @@
-# NPM Website QuickStarter
+# NPM Website Boilerplate
 
-Minimalistic website quickstarter.
+Minimalistic website boilerplate.
 Perfect for prototyping.
 
 ## What's in the box?

@@ -1,7 +1,7 @@
 {
-  "name": "NPM quickstarter",
+  "name": "NPM boilerplate",
   "version": "0.0.1",
-  "description": "Minimalistic website quickstarter. Perfect for prototyping.",
+  "description": "Minimalistic website boilerplate. Perfect for prototyping.",
   "main": "bundle.js",
   "scripts": {
     "prebuild": "npm run clean",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:griable/npm-quickstarter.git"
+    "url": "git@github.com:griable/npm-boilerplate.git"
   },
   "keywords": [
     "griable",
@@ -28,7 +28,7 @@
   "author": "Gabriel Slama",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/griable/npm-quickstarter/issues"
+    "url": "https://github.com/griable/npm-boilerplate/issues"
   },
   "devDependencies": {
     "browser-sync": "^1.8.1",
