@@ -1,3 +1,5 @@
+.DS_Store
+Thumbs.db
 bundle.js
 dist
 node_modules
