@@ -5,7 +5,12 @@
   "main": "bundle.js",
   "scripts": {
     "build:js": "webpack",
-    "build": "npm run build:js && npm run build:css"
+    "build:css": "sass src/styles/main.scss:dist/bundle.css",
+    "build": "npm run build:js && npm run build:css",
+    "watch:css": "npm run build:css -- --watch",
+    "watch:js": "npm run build:js -- --watch",
+    "watch": "parallelshell 'npm run watch:js' 'npm run watch:css' && 'npm run serve'",
+    "serve": "browser-sync start --server"
   },
   "repository": {
     "type": "git",
@@ -23,6 +28,8 @@
   },
   "homepage": "https://github.com/griable/griable",
   "devDependencies": {
+    "browser-sync": "^1.8.1",
+    "parallelshell": "^1.0.3",
     "webpack": "^1.4.13"
   }
 }
